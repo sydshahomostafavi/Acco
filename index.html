@@ -71,64 +71,154 @@
   // The page works on GitHub Pages without a paid server.
   // ==============================================================
   const BRANDS = [
-    {
-      slug:'ecoteq', name:'ECOTEQ', origin:'The Netherlands', sector:'Advanced Heating & Cooling',
-      headline:'Precision climate technology.',
-      description:'A portfolio of advanced air-to-water heat pumps and complementary hydronic comfort solutions.',
-      products:[
-        {name:'Air-to-Water Heat Pumps', description:'Inverter heating and cooling solutions for demanding applications.', image:''},
-        {name:'Buffer Tanks', description:'Hydronic storage solutions for heating and cooling systems.', image:''},
-        {name:'Radiators', description:'Comfort heating and cooling radiator solutions.', image:''},
-        {name:'Smart Thermostats', description:'Intuitive temperature and comfort controls.', image:''}
-      ], catalogue:'', gallery:[]
-    },
-    {
-      slug:'mango-energy', name:'Mango Energy', origin:'China', sector:'High-Efficiency Heat Pumps',
-      headline:'Climate comfort in every season.',
-      description:'Heat pump technology for residential, commercial and swimming pool applications.',
-      products:[
-        {name:'R290 Heat Pumps', description:'Air-to-water solutions using R290 refrigerant.', image:''},
-        {name:'R32 Heat Pumps', description:'Efficient heating and cooling systems using R32 refrigerant.', image:''},
-        {name:'Swimming Pool Heat Pumps', description:'Heating and cooling solutions for pool water.', image:''}
-      ], catalogue:'', gallery:[]
-    },
-    {
-      slug:'atapipe', name:'ATAPIPE', origin:'Iran', sector:'Hydronic & Boiler Systems',
-      headline:'Every connection matters.',
-      description:'A versatile range of heating, plumbing and hydronic distribution products.',
-      products:[
-        {name:'Condensing Boilers', description:'Wall-mounted heating and domestic hot water systems.', image:''},
-        {name:'PEX-AL-PEX Pipes', description:'Multilayer pipes for modern building systems.', image:''},
-        {name:'Brass Manifolds & Fittings', description:'Distribution manifolds and connection systems.', image:''}
-      ], catalogue:'', gallery:[]
-    },
-    {
-      slug:'duca', name:'DUCA', origin:'', sector:'Water Circulation',
-      headline:'The flow behind performance.',
-      description:'Circulation pump solutions engineered for hydronic heating and cooling networks.',
-      products:[
-        {name:'Circulation Pumps', description:'Pumps for circulating water through HVAC systems.', image:''}
-      ], catalogue:'', gallery:[]
-    },
-    {
-      slug:'kalzem', name:'KALZEM', origin:'Türkiye', sector:'Underfloor Heating Systems',
-      headline:'Comfort begins below the surface.',
-      description:'Underfloor heating components and hydronic distribution solutions.',
-      products:[
-        {name:'5-Layer PE-RT Pipes', description:'Oxygen-barrier pipes for underfloor heating.', image:''},
-        {name:'Thermostatic Manifolds', description:'Flow distribution and zone control components.', image:''}
-      ], catalogue:'', gallery:[]
-    },
-    {
-      slug:'einetech', name:'EineTech', origin:'Germany', sector:'Stainless Steel Manifolds',
-      headline:'A foundation of precision.',
-      description:'Stainless steel underfloor heating manifolds and related hydronic controls.',
-      products:[
-        {name:'Stainless Steel Manifolds', description:'Multi-loop distribution for underfloor heating.', image:''},
-        {name:'Manifold Accessories', description:'Accessories and controls for hydronic zones.', image:''}
-      ], catalogue:'', gallery:[]
-    }
-  ];
+  {
+    "slug": "ecoteq",
+    "name": "ECOTEQ",
+    "origin": "The Netherlands",
+    "sector": "Advanced Heating & Cooling",
+    "headline": "Precision climate technology.",
+    "description": "A portfolio of advanced air-to-water heat pumps and complementary hydronic comfort solutions.",
+    "products": [
+      {
+        "name": "Air-to-Water Heat Pumps",
+        "description": "Inverter heating and cooling solutions for demanding applications.",
+        "image": "images/ecoteq/ed2e6f6f-30d2-44f7-8f00-6f65aca0d4c5-mwfjaz52-6khzb.png"
+      },
+      {
+        "name": "Buffer Tanks",
+        "description": "Hydronic storage solutions for heating and cooling systems.",
+        "image": ""
+      },
+      {
+        "name": "Radiators",
+        "description": "Comfort heating and cooling radiator solutions.",
+        "image": ""
+      },
+      {
+        "name": "Smart Thermostats",
+        "description": "Intuitive temperature and comfort controls.",
+        "image": ""
+      }
+    ],
+    "catalogue": "",
+    "gallery": []
+  },
+  {
+    "slug": "mango-energy",
+    "name": "Mango Energy",
+    "origin": "China",
+    "sector": "High-Efficiency Heat Pumps",
+    "headline": "Climate comfort in every season.",
+    "description": "Heat pump technology for residential, commercial and swimming pool applications.",
+    "products": [
+      {
+        "name": "R290 Heat Pumps",
+        "description": "Air-to-water solutions using R290 refrigerant.",
+        "image": ""
+      },
+      {
+        "name": "R32 Heat Pumps",
+        "description": "Efficient heating and cooling systems using R32 refrigerant.",
+        "image": ""
+      },
+      {
+        "name": "Swimming Pool Heat Pumps",
+        "description": "Heating and cooling solutions for pool water.",
+        "image": ""
+      }
+    ],
+    "catalogue": "",
+    "gallery": []
+  },
+  {
+    "slug": "atapipe",
+    "name": "ATAPIPE",
+    "origin": "Iran",
+    "sector": "Hydronic & Boiler Systems",
+    "headline": "Every connection matters.",
+    "description": "A versatile range of heating, plumbing and hydronic distribution products.",
+    "products": [
+      {
+        "name": "Condensing Boilers",
+        "description": "Wall-mounted heating and domestic hot water systems.",
+        "image": ""
+      },
+      {
+        "name": "PEX-AL-PEX Pipes",
+        "description": "Multilayer pipes for modern building systems.",
+        "image": ""
+      },
+      {
+        "name": "Brass Manifolds & Fittings",
+        "description": "Distribution manifolds and connection systems.",
+        "image": ""
+      }
+    ],
+    "catalogue": "",
+    "gallery": []
+  },
+  {
+    "slug": "duca",
+    "name": "DUCA",
+    "origin": "",
+    "sector": "Water Circulation",
+    "headline": "The flow behind performance.",
+    "description": "Circulation pump solutions engineered for hydronic heating and cooling networks.",
+    "products": [
+      {
+        "name": "Circulation Pumps",
+        "description": "Pumps for circulating water through HVAC systems.",
+        "image": ""
+      }
+    ],
+    "catalogue": "",
+    "gallery": []
+  },
+  {
+    "slug": "kalzem",
+    "name": "KALZEM",
+    "origin": "Türkiye",
+    "sector": "Underfloor Heating Systems",
+    "headline": "Comfort begins below the surface.",
+    "description": "Underfloor heating components and hydronic distribution solutions.",
+    "products": [
+      {
+        "name": "5-Layer PE-RT Pipes",
+        "description": "Oxygen-barrier pipes for underfloor heating.",
+        "image": ""
+      },
+      {
+        "name": "Thermostatic Manifolds",
+        "description": "Flow distribution and zone control components.",
+        "image": ""
+      }
+    ],
+    "catalogue": "",
+    "gallery": []
+  },
+  {
+    "slug": "einetech",
+    "name": "EineTech",
+    "origin": "Germany",
+    "sector": "Stainless Steel Manifolds",
+    "headline": "A foundation of precision.",
+    "description": "Stainless steel underfloor heating manifolds and related hydronic controls.",
+    "products": [
+      {
+        "name": "Stainless Steel Manifolds",
+        "description": "Multi-loop distribution for underfloor heating.",
+        "image": ""
+      },
+      {
+        "name": "Manifold Accessories",
+        "description": "Accessories and controls for hydronic zones.",
+        "image": ""
+      }
+    ],
+    "catalogue": "",
+    "gallery": []
+  }
+];
 
   const view = document.getElementById('view');
   const navLinks = document.getElementById('navLinks');
